@@ -17,9 +17,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val textViewHola = findViewById<TextView>(R.id.textViewHola)
-        val textViewMon = findViewById<TextView>(R.id.textViewMon)
-        textViewHola.text = "Hola"
-        textViewMon.text = "Món"
     }
 }
